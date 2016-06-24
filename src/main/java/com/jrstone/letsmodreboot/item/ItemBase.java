@@ -2,25 +2,16 @@ package com.jrstone.letsmodreboot.item;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
-
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ItemBase extends Item {
-    protected String name;
 
-    public ItemBase(String name) {
-        this.name = name;
-        setUnlocalizedName(name);
-        setRegistryName(name);
+    public ItemBase(String name)
+    {
+        super();                                                    // The Registry Name will be MOD_ID:name
+        setRegistryName(name);                                      // The unique name (within your mod) that identifies this item
+        setUnlocalizedName(name);                                   // Used for localization (en_US.lang)
+        setCreativeTab(CreativeTabs.tabMaterials);
+        GameRegistry.register(this);
     }
-   public void registerItemModel() {
-      //  TutorialMod.proxy.registerItemRenderer(this, 0, name);
-    }
-
-    @Override
-    public ItemBase setCreativeTab(CreativeTabs tab) {
-        super.setCreativeTab(tab);
-        return this;
-    }
-
-
 }

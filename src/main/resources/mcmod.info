@@ -1,0 +1,17 @@
+[
+ {
+   "modid": "LetsModReboot",
+   "name": "Lets Mod Reboot",
+   "description": "",
+   "version": "1.0",
+   "mcversion": "1.9",
+   "logoFile": "",
+   "url": "",
+   "updateUrl": "",
+   "authorList": ["Jim"],
+   "credits": "",
+   "screenshots": [],
+   "parent": "",
+   "dependencies": []
+ }
+ ]

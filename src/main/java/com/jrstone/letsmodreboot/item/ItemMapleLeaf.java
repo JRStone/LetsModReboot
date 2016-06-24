@@ -1,14 +1,11 @@
 package com.jrstone.letsmodreboot.item;
 
-/**
- * Created by jimst on 6/21/2016.
+import com.jrstone.letsmodreboot.reference.Names;
 
 public class ItemMapleLeaf extends ItemBase
 {
     public ItemMapleLeaf()
     {
-        super();
-        name = "MapleLeaf";
+        super(Names.Items.MAPLE_LEAF);
     }
 }
-*/

@@ -2,10 +2,10 @@ package com.jrstone.letsmodreboot.client.gui;
 
 import com.jrstone.letsmodreboot.handler.ConfigurationHandler;
 import com.jrstone.letsmodreboot.reference.Reference;
-import net.minecraftforge.fml.client.config.GuiConfig;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraftforge.common.config.ConfigElement;
 import net.minecraftforge.common.config.Configuration;
+import net.minecraftforge.fml.client.config.GuiConfig;
 
 public class ModGuiConfig extends GuiConfig
 {
@@ -17,6 +17,5 @@ public class ModGuiConfig extends GuiConfig
                 false,
                 false,
                 GuiConfig.getAbridgedConfigPath(ConfigurationHandler.configuration.toString()));
-
     }
 }
